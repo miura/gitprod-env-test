@@ -5,4 +5,5 @@ tasks:
   - name: test environmental variable passing
     init: |
       echo 'call $BIII_DATABASE_URL'
+      echo "--> $BIII_DATABASE_URL"
       sh printEnv.sh
