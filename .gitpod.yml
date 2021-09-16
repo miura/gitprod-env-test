@@ -1,0 +1,8 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: test environmental variable passing
+    init: |
+      echo 'call $BIII_DATABASE_URL'
+      sh printEnv.sh
