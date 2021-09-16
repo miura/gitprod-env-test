@@ -1,7 +1,0 @@
-image:
-  file: .gitpod.Dockerfile
-
-tasks:
-  - name: test environmental variable passing
-    init: |
-      sh printEnv.sh
